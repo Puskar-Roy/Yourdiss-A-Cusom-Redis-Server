@@ -24,6 +24,10 @@
   "homepage": "https://github.com/Puskar-Roy/Yourdiss-A-Custom-Redis#readme",
   "devDependencies": {
     "@types/node": "^20.14.2",
+    "@types/redis-parser": "^3.0.3",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "redis-parser": "^3.0.0"
   }
 }
