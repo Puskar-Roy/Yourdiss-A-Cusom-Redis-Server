@@ -4,6 +4,7 @@
   "description": "A Custom Redis Server.",
   "main": "index.js",
   "scripts": {
+    "start": "tsc -b && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/Puskar-Roy/Yourdiss-A-Custom-Redis/issues"
   },
-  "homepage": "https://github.com/Puskar-Roy/Yourdiss-A-Custom-Redis#readme"
+  "homepage": "https://github.com/Puskar-Roy/Yourdiss-A-Custom-Redis#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  }
 }
