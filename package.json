@@ -1,0 +1,33 @@
+{
+  "name": "yourdiss-a-custom-redis",
+  "version": "1.0.0",
+  "description": "A Custom Redis Server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -b && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Puskar-Roy/Yourdiss-A-Custom-Redis.git"
+  },
+  "keywords": [
+    "redis",
+    "key-pair-store",
+    "in-memoty-database"
+  ],
+  "author": "Puskar Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Puskar-Roy/Yourdiss-A-Custom-Redis/issues"
+  },
+  "homepage": "https://github.com/Puskar-Roy/Yourdiss-A-Custom-Redis#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/redis-parser": "^3.0.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "redis-parser": "^3.0.0"
+  }
+}
